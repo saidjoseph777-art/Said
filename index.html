@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Universal App Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🚀 Universal App Generator</h1>
+
+    <label>App Name:</label>
+    <input type="text" id="appName" placeholder="Enter App Name">
+
+    <label>Select Platform:</label>
+    <select id="platform">
+        <option value="web">Web (HTML/CSS/JS)</option>
+        <option value="react">React Native</option>
+        <option value="flutter">Flutter</option>
+        <option value="python">Python (Flask)</option>
+        <option value="node">Node.js</option>
+    </select>
+
+    <button onclick="generateApp()">Generate Code</button>
+
+    <h2>Generated Code:</h2>
+    <textarea id="output"></textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>
